@@ -64,7 +64,7 @@
 	(printout t  "HECHO OBJETIVO " ?f crlf)
 	(halt)
 )
-
+x
 (defrule noSolucion
 	(declare (salience -50))
 	?f <- (tren ? vagones $?v maletas $?m)
